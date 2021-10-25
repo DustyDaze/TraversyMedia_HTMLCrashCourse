@@ -55,7 +55,6 @@ a:visited{
     border: 5px red solid;
     padding: 20px;
     margin-top: 20px;
-    display: none;
 }
 .box-1 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -70,13 +69,11 @@ a:visited{
     border: 3px dotted #ccc;
     padding: 20px;
     margin: 20px, 0px;
-    display: none;
 }
 .categories{
     border: 1px #ccc solid;
     padding: 10px;
     border-radius: 15px;
-    display: none;
 }
 .categories h2{
     text-align: center;
@@ -93,7 +90,6 @@ a:visited{
 }
 .my-form{
     padding: 20px;
-    display: none;
 }
 .my-form .form-group{
     padding-bottom: 15px;
@@ -111,7 +107,6 @@ a:visited{
     border: 1px solid #333;
     padding: 10px;
     box-sizing: border-box;
-    display: none;
 }
 #main-block{
     float:left;
