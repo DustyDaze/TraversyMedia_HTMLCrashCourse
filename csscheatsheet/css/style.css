@@ -45,12 +45,17 @@ a:visited{
     width:80%;
     margin:auto;
 }
+/* clears any preceding floats */
+.clr{
+    clear:both;
+}
 .box-1{
     background-color: #333;
     color: #fff;
     border: 5px red solid;
     padding: 20px;
     margin-top: 20px;
+    display: none;
 }
 .box-1 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -65,11 +70,13 @@ a:visited{
     border: 3px dotted #ccc;
     padding: 20px;
     margin: 20px, 0px;
+    display: none;
 }
 .categories{
     border: 1px #ccc solid;
     padding: 10px;
     border-radius: 15px;
+    display: none;
 }
 .categories h2{
     text-align: center;
@@ -97,9 +104,26 @@ a:visited{
     padding: 8px;
     width: 100%;
 }
-
-
-
+.block{
+    float: left;
+    width:33.3%;
+    border: 1px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float:left;
+    width: 60%;
+    box-sizing: border-box;
+}
+#sidebar{
+    float:right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
 
 
 
