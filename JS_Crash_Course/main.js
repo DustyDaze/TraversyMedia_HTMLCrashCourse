@@ -6,7 +6,6 @@ console.log('Hello World');
 console.error('This is an error');
 console.warn('This is a warning');
 
-
 // VARIABLES - var, let, const
 let age = 30;
 
@@ -25,7 +24,6 @@ let z; // undefined
 
 // Check type
 console.log(typeof z);
-
 
 // STRINGS
 
@@ -288,7 +286,6 @@ class Person {
 
 const person1 = new Person('John', 'Doe', '7-8-80');
 console.log(person1.getBirthYear());
-
 
 // ELEMENT SELECTORS
 
